@@ -1,0 +1,21 @@
+{
+    "name": "ttt/zenclass",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "taras",
+            "email": "taras.m0@yandex.ru"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            ""
+        ],
+        "psr-4": {
+            "\\": ["", "lib/"],
+            "\\API\\": "lib/Api/"
+        }
+    },
+    "require": {
+    }
+}
